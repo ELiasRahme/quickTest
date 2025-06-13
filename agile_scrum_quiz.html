@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Agile & Scrum Drop Quiz</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f9f9f9; }
+        h1 { color: #333; }
+        .question { margin-bottom: 20px; }
+        .options { margin-left: 20px; }
+        .submit-btn { padding: 10px 20px; font-size: 16px; }
+    </style>
+</head>
+<body>
+    <h1>Agile & Scrum Drop Quiz</h1>
+    <form id="quizForm">
+<div class="question"><p>1. What is the primary goal of Agile methodologies?</p><div class="options"><input type="radio" name="q0" value="option0" id="q0opt0"><label for="q0opt0">Deliver software with minimal human interaction</label></div><div class="options"><input type="radio" name="q0" value="option1" id="q0opt1"><label for="q0opt1">Deliver working software frequently and adapt to change</label></div><div class="options"><input type="radio" name="q0" value="option2" id="q0opt2"><label for="q0opt2">Avoid customer feedback until the final release</label></div><div class="options"><input type="radio" name="q0" value="option3" id="q0opt3"><label for="q0opt3">Prioritize documentation over collaboration</label></div></div><div class="question"><p>2. Who is responsible for maximizing the value of the product in Scrum?</p><div class="options"><input type="radio" name="q1" value="option0" id="q1opt0"><label for="q1opt0">Scrum Master</label></div><div class="options"><input type="radio" name="q1" value="option1" id="q1opt1"><label for="q1opt1">Development Team</label></div><div class="options"><input type="radio" name="q1" value="option2" id="q1opt2"><label for="q1opt2">Product Owner</label></div><div class="options"><input type="radio" name="q1" value="option3" id="q1opt3"><label for="q1opt3">Project Manager</label></div></div><div class="question"><p>3. What is a Sprint in Scrum?</p><div class="options"><input type="radio" name="q2" value="option0" id="q2opt0"><label for="q2opt0">A single planning meeting</label></div><div class="options"><input type="radio" name="q2" value="option1" id="q2opt1"><label for="q2opt1">A long-term project roadmap</label></div><div class="options"><input type="radio" name="q2" value="option2" id="q2opt2"><label for="q2opt2">A fixed time period for delivering a usable product increment</label></div><div class="options"><input type="radio" name="q2" value="option3" id="q2opt3"><label for="q2opt3">A test phase in the Waterfall model</label></div></div><div class="question"><p>4. Which of the following is NOT a Scrum event?</p><div class="options"><input type="radio" name="q3" value="option0" id="q3opt0"><label for="q3opt0">Daily Scrum</label></div><div class="options"><input type="radio" name="q3" value="option1" id="q3opt1"><label for="q3opt1">Sprint Planning</label></div><div class="options"><input type="radio" name="q3" value="option2" id="q3opt2"><label for="q3opt2">Sprint Review</label></div><div class="options"><input type="radio" name="q3" value="option3" id="q3opt3"><label for="q3opt3">Requirements Gathering</label></div></div><div class="question"><p>5. What best describes the Scrum Master’s role?</p><div class="options"><input type="radio" name="q4" value="option0" id="q4opt0"><label for="q4opt0">Writing code alongside developers</label></div><div class="options"><input type="radio" name="q4" value="option1" id="q4opt1"><label for="q4opt1">Managing team members’ performance</label></div><div class="options"><input type="radio" name="q4" value="option2" id="q4opt2"><label for="q4opt2">Removing impediments and coaching the team</label></div><div class="options"><input type="radio" name="q4" value="option3" id="q4opt3"><label for="q4opt3">Prioritizing the backlog</label></div></div>
+        <input type="submit" class="submit-btn" value="Submit">
+    </form>
+    <script>
+        document.getElementById("quizForm").addEventListener("submit", function(e) {
+            e.preventDefault();
+            alert("Your responses have been recorded. Thank you!");
+        });
+    </script>
+</body>
+</html>
